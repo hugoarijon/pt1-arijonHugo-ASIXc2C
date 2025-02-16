@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eines per a l'Aula</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Eines per a l'Aula</h1>
+        <button id="toggleTheme">🌙 / ☀️</button>
+    </header>
+
+    <main>
+        <section id="clock">
+            <h2>Rellotge</h2>
+            <div id="time" class="digital-clock">00:00:00</div>
+        </section>
+
+        <section id="timer">
+            <h2>Temporitzador</h2>
+            <input type="time" id="endTime">
+            <input type="text" id="duration" placeholder="HH:MM:SS">
+            <button id="startTimer">Iniciar</button>
+            <button id="resetTimer">Reiniciar</button>
+            <div id="countdown">00:00:00</div>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
